@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #333; /* Or whatever color you prefer */
+    height: 4rem; /* Adjust to your liking */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Make sure it's above other items */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem; /* Adjust as necessary */
+  }
+  
+  .navbar-logo {
+    cursor: pointer;
+  }
+  
+  .navbar-logo img {
+    height: 100%;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    padding: 0 1rem; /* Adjust as necessary */
+  }
+  
+  .navbar-links {
+    text-decoration: none;
+    color: #fff; /* Or another color that matches your design */
+    display: block;
+    padding: 1rem 0;
+  }
+  
+  /* Styles for dropdown menus and responsive design go here */
+  
