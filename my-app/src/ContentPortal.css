@@ -1,0 +1,43 @@
+/* ContentPortal.css */
+
+.content-portal {
+    background-color: #f5f5f7; /* Soft light gray background */
+    color: #333; /* Apple uses mostly black text, but not pure black */
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; /* Font stack */
+    line-height: 1.4; /* Apple-like line height */
+  }
+  
+  .content-portal h2 {
+    font-size: 1.5em; /* Slightly larger font-size for headers */
+    margin-bottom: 1em;
+  }
+  
+  /* ContentDisplay and ContentUpload styles if needed */
+  .content-display, .content-upload {
+    padding: 1em; /* Padding around content areas */
+    margin: 1em; /* Margin around content areas */
+    border-radius: 12px; /* Apple often uses rounded corners */
+  }
+  
+  /* Add specific responsive design styles below */
+  @media (max-width: 768px) {
+    /* Adjust styles for mobile responsiveness */
+    .content-portal {
+      padding: 0.5em;
+    }
+  
+    .content-portal h2 {
+      font-size: 1.2em; /* Slightly smaller headers for mobile */
+    }
+  }
+  
+  /* Hover state styles */
+  .content-item:hover {
+    background-color: #e6e6ea; /* Slightly darker on hover */
+  }
+  
+  /* Animation or transition effects */
+  .content-item {
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  

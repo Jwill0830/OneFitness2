@@ -1,4 +1,3 @@
-// ContentDisplay.js
 import React from 'react';
 import ContentItem from './ContentItem'; // This will be a new component for individual content items
 

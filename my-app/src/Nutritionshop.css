@@ -1,0 +1,43 @@
+.nutrition-shop {
+    margin: 2rem auto;
+    width: 80%;
+  }
+  
+  .top-selling-container {
+    margin-bottom: 2rem;
+  }
+  
+  .top-selling-scroll {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .top-selling-item {
+    flex: 0 0 auto;
+    width: 200px; /* or whatever width you prefer */
+    margin-right: 1rem;
+    text-align: center;
+  }
+  
+  .top-selling-item img {
+    width: 100%;
+    object-fit: cover; /* This ensures the images are nicely cropped */
+  }
+  
+  .product-submission-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-submission-form input,
+  .product-submission-form button {
+    margin: 0.5rem 0;
+  }
+  
+  /* Ensure the form is responsive */
+  @media (max-width: 768px) {
+    .product-submission-form form {
+      width: 100%;
+    }
+  }
+  

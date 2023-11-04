@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ContentDisplay from './ContentDisplay'; // This will be a new component for displaying content
 import ContentUpload from './ContentUpload'; // This will be a new component for uploading content
+import './ContentPortal.css';
 
 const ContentPortal = () => {
   // We can use local state to manage content, likes, rankings, etc. before integrating a backend

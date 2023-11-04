@@ -1,45 +1,62 @@
+/* Navbar base styles */
 .navbar {
-    background-color: #333; /* Or whatever color you prefer */
-    height: 4rem; /* Adjust to your liking */
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000; /* Make sure it's above other items */
+    background-color: #333; /* Background color of the navbar */
+    height: 4rem; /* Height of the navbar */
+    width: 100%; /* Navbar width to span the full page */
+    position: fixed; /* Fixed position to stay on top */
+    top: 0; /* Align to the top */
+    z-index: 1000; /* Ensures navbar is above other items */
   }
   
+  /* Container holding logo and menu items */
   .navbar-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding: 0 1rem; /* Adjust as necessary */
+    justify-content: space-between; /* Spreads out logo and menu items */
+    align-items: center; /* Centers items vertically */
+    height: 100%; /* Full height of the navbar */
+    padding: 0 1rem; /* Padding on the sides */
   }
   
+  /* Logo styling */
   .navbar-logo {
-    cursor: pointer;
+    cursor: pointer; /* Changes cursor to pointer when hovering over the logo */
   }
   
+  /* Adjusts the image size to fit the navbar height */
   .navbar-logo img {
     height: 100%;
   }
   
+  /* Menu list styling */
   .navbar-menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+    list-style: none; /* Removes default list styling */
+    display: flex; /* Lays out menu items in a row */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
   }
   
+  /* Individual menu item styling */
   .navbar-item {
-    padding: 0 1rem; /* Adjust as necessary */
+    padding: 0 1rem; /* Spacing between menu items */
   }
   
+  /* Style for links within the navbar */
   .navbar-links {
-    text-decoration: none;
-    color: #fff; /* Or another color that matches your design */
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* Text color for the links */
     display: block;
-    padding: 1rem 0;
+    padding: 1rem 0; /* Padding to increase clickable area */
   }
   
-  /* Styles for dropdown menus and responsive design go here */
+  /* You can add media queries and dropdown styles below */
+  @media (max-width: 768px) {
+    /* Styles for responsive design on smaller screens */
+    .navbar-menu {
+      display: none; /* Hide the menu on small screens, toggle it via JavaScript */
+    }
+    /* Other responsive styles can go here */
+  }
+  
+  /* Dropdown menu styles */
+  /* Add styles here if you have dropdown menus in your navbar */
   

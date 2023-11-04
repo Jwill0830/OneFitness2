@@ -29,6 +29,10 @@ const Navbar = () => {
             {/* Dropdown Menu Here if needed */}
           </li>
           {/* ... other navbar items ... */}
+          <li className="navbar-item">
+            <Link to="/nutrition-shop" className="navbar-links">Nutrition Shop</Link>
+            {/* Dropdown Menu Here if needed */}
+          </li>
         </ul>
       </div>
     </nav>
@@ -36,3 +40,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
